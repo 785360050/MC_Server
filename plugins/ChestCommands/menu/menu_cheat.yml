@@ -1,0 +1,88 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Cheat Menu'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 6
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'menu_cheat'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+  - 'tell: &eYou opened the example menu.'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+money_add:
+  MATERIAL: enderpearl
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&eadd money 1w'
+  ACTIONS:
+  - 'give-money: 10000.0'
+  - 'money'
+  KEEP-OPEN: true
+
+gamemode_set_creative:
+  MATERIAL: enderpearl
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: '&egamemode creative '
+  ACTIONS:
+  - 'gamemode creative'
+
+gamemode_set_survival:
+  MATERIAL: enderpearl
+  POSITION-X: 2
+  POSITION-Y: 2
+  NAME: '&egamemode survival '
+  ACTIONS:
+  - 'gamemode survival'
+
+time_set_day:
+  MATERIAL: enderpearl
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&eday'
+  ACTIONS:
+  - 'time set day'
+
+
+menu_open_main:
+  MATERIAL: enderpearl
+  POSITION-X: 9
+  POSITION-Y: 6
+  NAME: '&eBack to main menu'
+  ACTIONS:
+  - 'open: menu_main.yml'

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Feb 05 11:29:04 CST 2024
+xsdlib-2013.6.1.jar>https\://repo.huaweicloud.com/repository/maven/=
+xsdlib-2013.6.1.pom>https\://repo.huaweicloud.com/repository/maven/=

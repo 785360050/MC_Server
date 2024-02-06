@@ -1,0 +1,64 @@
+# display:
+#     title:
+#       text:
+#       - '&lAnimatedScoreboard'
+#       random: false
+#       interval: 2
+#     line-1:
+#       text:
+#       - ''
+#       random: false #optional
+#       interval: 1
+#       score: 6 #optional
+#     line-2:
+#       text:
+#       - 'Welcome to example.com!'
+#       interval: 1
+#     line-3:
+#       text:
+#       - ''
+#       interval: 1
+#     line-4:
+#       text:
+#       - 'Balance: &a$%vault_eco_balance_formatted%'
+#       interval: 1
+#     line-5:
+#       text:
+#       - 'Online players: &a%server_online%'
+#       interval: 1
+#     line-6:
+#       text:
+#       - ''
+#       interval: 1
+#     line-7:
+#       text:
+#       - '&eplay.example.com'
+#       interval: 1
+
+
+#The first line is the title, the rest after that is the board that is display in game
+display:
+- '&lAnimatedScoreboard'
+- ''
+- 'Welcome to example.com!'
+- ''
+- 'Balance: &a$%vault_eco_balance_formatted%'
+- 'Online players: &a%server_online%'
+- ''
+- '&eplay.example.com'
+
+# display:
+#  # The update interval for the title in ticks
+#   title-interval: 2
+#   # The title lines
+#   title:
+#   - "&lAnimatedScoreboard"
+#   # The board lines
+#   board:
+#   - ''
+#   - 'Welcome to example.com!'
+#   - ''
+#   - 'Balance: &a$%vault_eco_balance_formatted%'
+#   - 'Online players: &a%server_online%'
+#   - ''
+#   - '&eplay.example.com'

@@ -1,0 +1,7 @@
+display:
+- "&l%player_name%"
+- 'Money: &a$%vault_eco_balance_formatted%'
+# - "&a%gamemode%"
+# - "&a{world}"    
+# - 'Online players: &a%server_online%'
+- 'Time: %localtime_time_H:mm%'

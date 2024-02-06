@@ -1,0 +1,14 @@
+scoreboard:
+  names:
+    adminboard: adminboard
+    endscoreboard: endscoreboard
+    globalscoreboard: globalscoreboard
+    netherscoreboard: netherscoreboard
+    defaultscoreboard: defaultscoreboard
+    player:
+      yml: player.yml
+    demo:
+      yml: demo.yml
+  disabled: '&cDisabled'
+  enabled: '&aEnabled'
+  none-active: '&7None'
